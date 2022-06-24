@@ -1,0 +1,7 @@
+stringstream 主要用于string类和其他类的转换，在本题中，是将字符串 cmd 转化成int和char。comma的作用是识别“，”
+start和end是用于识别可能存在于命令中的表示范围的整形。
+eof（）函数的作用是判断cmd中是否只有一个整数。若是的话，则调用cmdnull（）指令，输出start对应的行的内容。
+若不是则继续输出comma，end，type。
+good（）函数的作用是检测上述输出的内容与其定义的类型是否一致，若不一致，则进行异常处理，若一致，就接着判断
+type的内容与那个功能一致。若type=‘n’，则调用cmdnumber功能，输出从start到end行的内容。若type=‘d’，则调用
+cmddelete（）功能，删除start到end行的内容。

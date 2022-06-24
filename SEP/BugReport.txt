@@ -1,0 +1,6 @@
+1.StudentWrapper 类中的id定义为了const常量，不能对其进行赋值操作，故删除其前面的const类型
+
+2.Student 的实例化对象定义为引用，而引用的对象必须进行赋值，所以在构造函数中添加初始化列表，
+将参数中的student赋值给私有成员Student &student
+
+3.
