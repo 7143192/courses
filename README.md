@@ -7,3 +7,5 @@ SE courses
 一些前端编程规范的网址：https://zhuanlan.zhihu.com/p/449425556
 
 Google编程规范：见文档
+
+前端一个比较好用的安装包的查找网址（当然直接百度或者CSDN也是好的）：https://www.npmjs.com
