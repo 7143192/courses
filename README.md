@@ -12,3 +12,5 @@ Google编程规范：见文档
 
 一个不错的前端页面模拟：https://app.mockplus.cn
 
+一个前端测试工具： [jtest](https://www.jestjs.cn)。
+
