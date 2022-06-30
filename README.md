@@ -14,3 +14,4 @@ Google编程规范：见文档
 
 一个前端测试工具： [jtest](https://www.jestjs.cn)。
 
+一个好用的文档比较工具： https://www.jq22.com/textDifference
