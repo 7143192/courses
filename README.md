@@ -19,3 +19,5 @@ Google编程规范：见文档
 后端性能测试工具：
 - [JMeter](www.jmeter.com.cn/)
 - [Locust](https://locust.io/)
+
+遇到问题多看看[CSDN](https://www.csdn.net/),[StackOverflow](https://stackoverflow.com/),[Unix&Linux StackExchange](https://unix.stackexchange.com/)!
