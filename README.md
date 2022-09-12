@@ -21,3 +21,5 @@ Google编程规范：见文档
 - [Locust](https://locust.io/)
 
 遇到问题多看看[CSDN](https://www.csdn.net/),[StackOverflow](https://stackoverflow.com/),[Unix&Linux StackExchange](https://unix.stackexchange.com/)!
+
+windows下统计代码行数的工具：[cloc](http://cloc.sourceforge.net/)。
