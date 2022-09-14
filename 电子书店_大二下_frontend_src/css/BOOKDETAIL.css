@@ -1,0 +1,61 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.DetailPage{
+    width:1000px;
+    margin:0 auto;
+}
+
+.HeaderPart2{
+    position:fixed;
+    width:1000px;
+    height:80px;
+    background:#FFFFFF;
+    z-index:999;
+    margin-top:-80px;
+}
+
+.SideBarPart2{
+    float:left;
+    width:180px;
+}
+
+.DetailInfoPart{
+    width:820px;
+    margin-left:180px;
+    margin-top:80px;
+}
+
+.footer{
+    margin-left:400px;
+    float:left;
+}
+
+.cartbutton{
+    height:1.5cm;
+    width:3cm;
+    background: #f34a67;
+    color: white;
+    text-align: center;
+    line-height: 32px;
+    cursor: pointer;
+    border-style:solid;
+    border-color:red;
+    float:left;
+    margin-left:500px;
+}
+
+.buybutton{
+    height:1.5cm;
+    width:3cm;
+    background: white;
+    color: orange;
+    text-align: center;
+    line-height: 32px;
+    cursor: pointer;
+    margin-left:100px;
+    border:1px solid orange;
+    float:left;
+}

@@ -1,0 +1,1028 @@
+#root{
+    height:1000px;
+    width:800px;
+    margin:0 auto;
+}
+
+ul{
+    list-style:none;
+}
+
+/*Header Part*/
+.HeadLine{
+    height:80px;
+    width:800px;
+    position:fixed;
+    background:#FFF;
+}
+
+.UserName{
+    float:right;
+    clear:right;
+    margin-right:50px;
+}
+
+.hi{
+    font-weight: bold;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+.LogoutButton{
+    height:30px;
+    width:80px;
+    color:red;
+    background:white;
+    border:2px solid red;
+    border-radius:5px;
+    margin-top:20px;
+}
+
+/*SideBar Part*/
+.SideBar{
+    display:block;
+    background:lightblue;
+    height:920px;
+    width:180px;
+    float:left;
+    position: fixed;
+    color: #ffffff;
+}
+
+.SideBar ul {
+    width: 180px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .3);
+}
+
+.SideBar ul li {
+    list-style: none;
+    height: 50px;
+    padding: 5px 0;
+    transition: all .5s;
+}
+
+.SideBar ul li p {
+    float: left;
+    margin-left: 30px;
+}
+
+.sideref{
+    float:left;
+    margin-left:30px;
+    text-decoration: none;
+    color:white;
+    font-size:20px;
+}
+
+.SideBar ul li span {
+    float: right;
+    margin-right: 20px;
+}
+
+.SideBar ul li:hover {
+    background-color: orange;
+    padding-left:20px;
+    cursor: pointer;
+}
+
+/*SearchBar Part*/
+.SearchBar{
+    height:40px;
+    width:572px;
+    float:left;
+}
+
+.searchbar{
+    height:34px;
+    width:568px;
+    float:left;
+    border:3px solid red;
+    outline:none;
+}
+
+.searchbutton{
+    height:40px;
+    width:48px;
+    float:left;
+    clear:right;
+    background: url(../assets/search.png) no-repeat 0 -346px;
+    border:none;
+}
+
+/*BookCarousel Part*/
+.Carousel{
+    background:purple;
+    height:200px;
+    width:620px;
+    float:left;
+    clear:right;
+}
+
+.carousel{
+    height:200px;
+    width:620px;
+}
+
+/*Book Part*/
+.BookList{
+    width:620px;
+    height:800px;
+    float:left;
+}
+
+.BookList ul li{
+    display:block;
+    height:270px;
+    width:160px;
+    margin-left:20px;
+    margin-top:50px;
+    border:1px solid #fff;
+    background:#fff;
+    float:left;
+}
+
+.Book{
+    height:280px;
+}
+
+.books{
+    list-style-type:none;
+    clear:right;
+}
+
+.BookImg{
+    height:150px;
+    width:120px;
+    margin-left:20px;
+}
+
+.name{
+    padding: 7px 20px 0;
+    height: 18px;
+    line-height: 18px;
+    width:200px;
+    overflow: hidden;
+}
+
+.bookref{
+    color:black;
+    text-decoration:none;
+}
+
+.author{
+    padding: 0 20px;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    color: blue;
+}
+
+.price{
+    padding-left: 10px;
+    line-height: 16px;
+    overflow: hidden;
+    font-size: 16px;
+    position: relative;
+
+}
+
+.sign{
+    color: #c30;
+    font-weight: bold;
+}
+
+.usernum{
+    color: #c30;
+    font-weight: bold;
+}
+
+.usertail{
+    color: #c30;
+    font-weight: bold;
+}
+
+.price_r{
+    color: #aaa;
+    text-decoration: line-through;
+    overflow: hidden;
+}
+
+.price_r .sign{
+    color:#aaa;
+}
+
+.price_r .usernum{
+    color:#aaa;
+}
+
+.price_r .usertail{
+    color:#aaa;
+}
+
+.ISBN{
+    margin-top:-10px;
+    height: 24px;
+    line-height: 24px;
+    overflow: hidden;
+    color: blue;
+}
+
+.StoreNum{
+    color:blue;
+    margin-left:10px;
+}
+
+.InfoButton{
+    height:20px;
+    width:150px;
+    color:red;
+    text-align:center;
+    background:#ffffff;
+    border:1px solid red;
+    border-radius:5px;
+    margin-left:12px;
+}
+
+/*Cart Part*/
+.cartproducts{
+    width:820px;
+    height:150px;
+    float:left;
+    margin-top:20px;
+}
+
+.carttable{
+    margin:0 auto;
+    height:150px;
+    width:820px;
+    border:2px solid black;
+    border-radius:5px;
+
+}
+
+.row1{
+    float:left;
+    width:80px;
+    height:150px;
+}
+
+.productbox{
+    height:20px;
+    width:20px;
+    margin-left:15px;
+    margin-top:65px;
+}
+
+.row2{
+    height:150px;
+    width:100px;
+    float:left;
+}
+
+.row3{
+    height:150px;
+    width:180px;
+    float:left;
+}
+
+.cartbookname{
+    margin-left:20px;
+    margin-top:30px;
+}
+
+.nameref{
+    text-decoration:none;
+}
+
+.cartbookauthor{
+    margin-left:20px;
+    color:lightblue;
+}
+
+.row4{
+    float:left;
+    width:80px;
+    height:150px;
+}
+
+.cartprice{
+    margin-top:60px;
+}
+
+.sign{
+    color:red;
+    font-size:20px;
+}
+
+.cartrobnum{
+    color:red;
+    font-size:20px;
+}
+
+.cartrobtail{
+    color:red;
+    font-size:20px;
+}
+
+.pricetype{
+    font-size:20px;
+    color:red;
+}
+
+.row5{
+    float:left;
+    height:150px;
+    width:130px;
+}
+
+.amount{
+    float:left;
+    margin-top:60px;
+    margin-left:20px;
+}
+
+.amount a {
+    display: block;
+    height: 29px;
+    width: 28px;
+    background-color: #f4f4f4;
+    float:left;
+    text-align:center;
+    text-decoration: none;
+    color: #323232;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-size: 100%;
+    list-style: none;
+    border:1px solid black;
+}
+
+.amount input{
+    width:37px;
+    height:29px;
+    float:left;
+    text-align:center;
+    border:1px solid black;
+    border-left:0;
+    border-right:0;
+}
+
+.row6{
+    float:left;
+    height:150px;
+    width:130px;
+}
+
+.totalprice{
+    margin-top:60px;
+    margin-left:20px;
+}
+
+.row7{
+    height:150px;
+    width:100px;
+    float:left;
+}
+
+.optref{
+    color:grey;
+    text-decoration:none;
+}
+
+.options{
+    background:white;
+    border:2px solid red;
+    border-radius:5px;
+    color:red;
+    height:40px;
+    width:100px;
+    margin-top:20px;
+}
+
+/*CartTotal Part*/
+.total{
+    width:820px;
+    height:100px;
+    background:url(../assets/p6.png);
+    position:fixed;
+    margin-top:480px;
+
+}
+
+.total_btn{
+    float: right;
+    display: block;
+    width: 116px;
+    height: 38px;
+    font: bold 18px/38px "Microsoft Yahei";
+    color: #fff;
+    background-color: #ff2832;
+    border-radius: 2px;
+    text-align: center;
+    margin-top:30px;
+    text-decoration:none;
+}
+
+.subtotal {
+    padding-right: 30px;
+    line-height: 24px;
+    float: right;
+    margin-top:35px;
+}
+
+.shopping_total .subtotal .cartsum {
+    width: 114px;
+    text-align: right;
+    padding: 0 8px 0 0;
+}
+
+.shopping_total .subtotal span {
+    display: inline-block;
+}
+
+.totalprice {
+    font-size: 22px;
+    color: #ff2832;
+}
+
+.left{
+    float:left;
+}
+
+.chooseall{
+    height:20px;
+    width:20px;
+    margin-left:30px;
+    margin-top:40px;
+}
+
+.deleteall{
+    width:100px;
+    height:50px;
+    margin-left:20px;
+    background:white;
+    border:2px solid red;
+    color:red;
+    border-radius:5px;
+    margin-right:10px;
+}
+
+.deleteallref{
+    text-decoration:none;
+    text-align:center;
+    color:red;
+}
+
+.chosennum{
+    color:red;
+    font-size:20px;
+}
+
+/*DetailInfo Part*/
+.valueword{
+    display:inline-block;
+}
+
+.bookvalue{
+    display:inline-block;
+    color:red;
+}
+
+.Details{
+    float:left;
+}
+
+.bookimage{
+    float:left;
+    margin-left:20px;
+    margin-right:20px;
+}
+
+.BookContents{
+    float:left;
+    clear:right;
+}
+
+.bookstate{
+    float:left;
+}
+
+.booknum{
+    margin-left:5px;
+    float:left;
+}
+
+.Clear{
+    clear:both;
+}
+
+.bookdescription{
+    width:240px;
+}
+
+.ISBN{
+    margin-top:10px;
+    float:left;
+}
+
+.AddButton{
+    height:30px;
+    width:300px;
+    color:red;
+    background:#FFFFFF;
+    border:2px solid red;
+    border-radius:5px;
+    margin-left:150px;
+    margin-top:20px;
+}
+
+/*OrderIfo Part*/
+.detailinfo{
+    height:110px;
+    width:616px;
+    border:2px solid black;
+    border-radius:5px;
+    float:left;
+    margin-bottom:10px;
+}
+
+.orderrow1{
+    height:100px;
+    float:left;
+    margin-left:10px;
+}
+
+.boxes{
+    width:50px;
+}
+
+.orderrow2{
+    width:180px;
+    float:left;
+    clear:right;
+}
+
+.order_item_list{
+    width:180px;
+    height:30px;
+    float:left;
+    margin-left:60px;
+}
+
+.info{
+    text-decoration: none;
+    color:black;
+    font-size:15px;
+}
+
+.sign{
+    color:red;
+}
+
+.num{
+    color:red;
+}
+
+.tail{
+    color:red;
+}
+
+.orderrow3{
+    height:100px;
+    width:80px;
+    margin-left:400px;
+    position:relative;
+}
+
+.orderrow5{
+    height:100px;
+    width:80px;
+    margin-left:30px;
+    position:relative;
+}
+
+.orderstate{
+    margin-top:30px;
+    color:red;
+    font-size:20px;
+}
+
+.orderrow4{
+    height:100px;
+    width:100px;
+    position:relative;
+    float:right;
+    margin-top:-130px;
+}
+
+.orderbutton{
+    height:30px;
+    width:80px;
+    margin-top:20px;
+    background:white;
+    border:2px solid red;
+    border-radius:5px;
+    color:red;
+}
+
+.order_detail0{
+    width:120px;
+    height:20px;
+    text-align:center;
+    float:left;
+    color:grey;
+}
+
+.order_detail1{
+    width:240px;
+    height:20px;
+    text-align:center;
+    float:left;
+    color:grey;
+}
+
+.order_detail2{
+    width:120px;
+    height:20px;
+    text-align:center;
+    float:left;
+    color:grey;
+}
+
+.order_detail3{
+    width:100px;
+    height:20px;
+    text-align:center;
+    float:left;
+    color:grey;
+}
+
+/*BuyInfo Part*/
+.addresspart{
+    width:616px;
+    height:100px;
+    float:left;
+    margin-top:-110px;
+}
+
+.addresspart ul{
+    width:616px;
+    height:100px;
+    list-style:none;
+    border:2px solid black;
+    border-radius:5px;
+}
+
+.addrinfo{
+    float:left;
+
+}
+
+.p1{
+    margin-top:20px;
+    margin-bottom:5px;
+    margin-left:20px;
+    font-size:20px;
+}
+
+.p2{
+    font-size:16px;
+    color:grey;
+    margin-bottom:5px;
+    margin-left:20px;
+}
+
+.addresspart ul li span{
+    position:relative;
+    float:right;
+    margin-right:20px;
+    margin-top:40px;
+}
+
+.addresspart ul li span:hover{
+    cursor:pointer;
+}
+
+.addresspart ul li div:hover{
+    cursor:pointer;
+}
+
+.detailpart{
+    width:616px;
+    height:130px;
+    border:2px solid black;
+    position:relative;
+
+    margin-bottom:10px;
+    border-radius:5px;
+}
+
+.productinfo{
+    width:300px;
+    margin-left:200px;
+    margin-top:30px;
+}
+
+.buydetailinfo{
+
+}
+
+.nametobuy{
+    text-decoration: none;
+    color:red;
+}
+
+.buyproductimg{
+    float:left;
+}
+
+.buynumandprice{
+
+}
+
+.buyprice{
+    color:red;
+    font-size:20px;
+}
+
+.buynums{
+    width:200px;
+    height:40px;
+    margin-left:300px;
+    margin-top:-60px;
+}
+
+.buynum{
+    width:30px;
+    height:30px;
+}
+
+.way{
+    height:100px;
+    width:616px;
+    border:2px solid black;
+    border-radius:5px;
+
+    margin-bottom:10px;
+}
+
+.way ul{
+    width:620px;
+    height:100px;
+    list-style:none;
+}
+
+.way ul li span{
+    position:relative;
+    float:right;
+    margin-right:20px;
+    margin-top:40px;
+    margin-left:10px;
+}
+
+.servename{
+    float:left;
+    margin-top:40px;
+    margin-left:20px;
+    font-size:20px;
+}
+
+.service{
+    float:right;
+    margin-top:28px;
+}
+
+.way ul li:hover{
+    cursor:pointer;
+}
+
+.pay{
+    width:616px;
+    height:150px;
+
+    border:2px solid black;
+    border-radius:5px;
+    margin-bottom:85px;
+}
+
+.pay ul{
+    width:620px;
+    height:50px;
+    list-style:none;
+}
+
+.payway{
+    float:left;
+    margin-top:20px;
+    margin-left:20px;
+    font-size:20px;
+}
+
+.paywaybox{
+    float:right;
+    margin-right:20px;
+    margin-top:20px;
+    width:20px;
+    height:20px;
+    border:2px solid black;
+    border-radius:10px;
+}
+
+.submitorder{
+    height:54px;
+    width:620px;
+    background:url(../assets/p6.png);
+}
+
+.submittable{
+    float:right;
+}
+
+.submitval{
+    font-size:20px;
+    color:orange;
+}
+
+.buysubmitbutton{
+    height:50px;
+    width:100px;
+    background:white;
+    color:orange;
+    border:2px solid orange;
+    border-radius:5px;
+    float:right;
+}
+
+.buyrow1{
+    font-size:20px;
+    margin-right:40px;
+}
+
+.buyrow2{
+
+}
+
+/*UserManage Part*/
+.AdminUserList{
+    width:620px;
+    height:800px;
+    float:left;
+    margin-top:80px;
+}
+
+.AdminUserList ul li{
+    display:block;
+    height:220px;
+    width:160px;
+    margin-left:20px;
+    margin-top:10px;
+    border:1px solid #fff;
+    background:#fff;
+    float:left;
+}
+
+.Book{
+    height:280px;
+}
+
+.adminUsers{
+    list-style-type:none;
+    clear:right;
+}
+
+.userManageImg{
+    height:100px;
+    width : 80px;
+    margin-left:40px;
+}
+
+.userManage{
+    height:200px;
+    width:160px;
+    border:2px solid black;
+    border-radius : 5px;
+}
+
+.usermanageId{
+    margin-left:50px;
+}
+
+.usermanageName{
+    margin-left:20px;
+}
+
+.userManageButton{
+    width:150px;
+    height:30px;
+    margin-left:5px;
+    border : 2px solid red;
+    border-radius:5px;
+    background:white;
+    color:red;
+}
+
+/*AdminStaticInfo Part*/
+.AdminStatic{
+    margin-left:180px;
+}
+
+.select-time-box {
+    height: 32px;
+    width:610px;
+    margin-left:30px;
+    margin-top:85px;
+}
+.select-time-box .select-time-main{
+    width: 120px;
+    height: 32px;
+    border: 1px solid #CDCDCD;
+    margin-right: 10px;
+    border-radius: 3px;
+    padding-left: 10px;
+    margin-left:50px;
+    outline: none;
+}
+
+.firstBooks{
+    height:280px;
+    width:616px;
+    border:2px solid black;
+    border-radius: 5px;
+    margin-top:20px;
+}
+
+.firstBookImg{
+    height:150px;
+    width:120px;
+    margin-left:10px;
+}
+
+.firstBooks ul li{
+    display:block;
+    height:180px;
+    width:160px;
+    margin-left:30px;
+    margin-top:30px;
+    border:1px solid #fff;
+    background:#fff;
+    float:left;
+}
+
+.firstBookName{
+    color: #2e73da;
+}
+
+.firstBookSold{
+    color:red;
+}
+
+.rexiao{
+    font-size:25px;
+    margin-left:180px;
+}
+
+/*AdminStaticBar Part*/
+.AdminStaticBar{
+    margin-top:20px;
+}
+
+/*AdminUser Part*/
+.aAdminUser{
+
+}
+
+.AdminUserImg{
+    height:100px;
+    width:100px;
+}
+
+/*UserStaticInfo Part*/
+.UserTotalInfo{
+    width:616px;
+    height : 100px;
+    border : solid 2px black;
+    border-radius : 5px;
+    margin-top:20px;
+}
+
+.userLine1{
+    margin-left:10px;
+    color : blue;
+}
+
+.userLine2{
+    margin-left:70px;
+}
+
+.totalBuyNum1{
+    color : red;
+    font-size : 30px;
+    display : inline-block;
+}
+
+.UserChart{
+    margin-left:30px;
+}
+
+

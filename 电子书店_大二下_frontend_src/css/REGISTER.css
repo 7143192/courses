@@ -1,0 +1,61 @@
+.RegisterPage{
+    /*background-color:lightblue;*/
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 75%;
+    background-image: url("../assets/bg1.png");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    z-index: 99;
+    margin-top:60px;
+}
+
+.REGISTER{
+    width:260px;
+    height:300px;
+    background:#FFFFFF;
+    border:2px solid #d0d0d0;
+    border-radius:15px;
+}
+
+.RegisterList li{
+    list-style:none;
+}
+
+.input1{
+    width:240px;
+    height:20px;
+    border:2px solid grey;
+}
+
+.input2{
+    width:240px;
+    height:20px;
+    border:2px solid grey;
+}
+
+.input3{
+    width:240px;
+    height:20px;
+    border:2px solid grey;
+}
+
+.input4{
+    width:240px;
+    height:20px;
+    border:2px solid grey;
+}
+
+.button{
+    height:40px;
+    width:240px;
+    background:red;
+    color:white;
+    border:2px solid orange;
+    border-radius:5px;
+}

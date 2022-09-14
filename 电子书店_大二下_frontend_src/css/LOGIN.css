@@ -1,0 +1,66 @@
+.LoginPage{
+    /*background-color:lightblue;*/
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url("../assets/p3.png");
+    background-repeat:no-repeat;
+    background-size:100% 100%;
+    z-index: 99;
+}
+
+.LoginButton{
+    width:100%;
+    height:30px;
+    background:white;
+    color:black;
+    font-size:20px;
+    border:2px solid grey;
+    border-radius:5px;
+}
+
+.LoginButton a{
+    text-decoration: none;
+}
+
+.InputUserName{
+    width:8cm;
+    margin-top:5px;
+    height:25px;
+    border:2px solid grey;
+}
+
+.InputPassWord{
+    width:8cm;
+    height:25px;
+    border:2px solid grey;
+    margin-top:3px;
+    margin-bottom:20px;
+}
+
+a{
+    color:grey;
+}
+
+.PassWordForget{
+    float:right;
+}
+
+.LoginForm{
+    height:4cm;
+    width:8cm;
+}
+
+.LoginBox{
+
+}
+
+.registerrequest{
+    margin-top:10px;
+}
+
