@@ -1,0 +1,55 @@
+*{
+    margin:0;
+    padding:0;
+}
+
+.HomePage{
+    width:800px;
+    margin:0 auto;
+    background:lightblue;
+}
+
+.HeaderPart{
+    position:fixed;
+    width:800px;
+    height:80px;
+    background:#FFFFFF;
+    z-index:999;
+}
+
+.SideBarPart{
+    float:left;
+    width:180px;
+    margin-top:80px;
+}
+
+.MainPart{
+    position:relative;
+    float:left;
+    width:620px;
+    margin-left:180px;
+    z-index:99;/*实现层叠*/
+}
+
+.BookCarouselPart{
+    height:200px;
+    width:620px;
+}
+
+.BookListPart{
+    width:620px;
+}
+
+.AdminStaticPage{
+    width:800px;
+    margin:0 auto;
+}
+
+.AdminStaticHeaderPart{
+    position:fixed;
+    width:800px;
+    height:80px;
+    background:#FFFFFF;
+    margin-top:-80px;
+    z-index:999;
+}
